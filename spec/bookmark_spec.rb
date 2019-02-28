@@ -34,6 +34,16 @@ describe Bookmark do
       expect(bookmark.title).to eq 'Test Bookmark'
       expect(bookmark.url).to eq 'http://www.testbookmark.com'
     end
+
+    #tests for delete passes - wrote feature test, added button in form and added request in controller
+    describe '.delete' do
+      it 'deletes the specified bookmark' do
+        bookmark = Bookmark.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+        Bookmark.delete(id: bookmark.id)
+        expect(Bookmark.all.length).to eq 0 
+      end
+    end
+
   end
 
 
