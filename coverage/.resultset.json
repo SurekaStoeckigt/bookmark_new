@@ -4,28 +4,41 @@
       "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/bookmark_spec.rb": [
         1,
         1,
-        null,
         1,
         null,
         1,
-        1,
-        1,
-        null,
         null,
         1,
         1,
         1,
         null,
-        1,
+        null,
         1,
         1,
         1,
         null,
         null,
         null,
+        null,
         1,
         1,
         1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
         1,
         1,
         null,
@@ -37,6 +50,15 @@
       ],
       "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/rails_helper.rb": [
         1
+      ],
+      "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/database_helpers.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null
       ],
       "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/features/add_bookmark_spec.rb": [
         1,
@@ -87,9 +109,12 @@
         1,
         1,
         null,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1551355024
+    "timestamp": 1551358011
   }
 }
