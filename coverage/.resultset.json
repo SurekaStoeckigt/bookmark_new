@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/bookmark_spec.rb": [
+      "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/bookmark_spec.rb": [
         1,
         1,
         1,
@@ -11,25 +11,20 @@
         1,
         1,
         null,
-        null,
-        null,
-        1,
-        1,
-        1,
         1,
         null,
-        null,
-        null,
+        1,
         null,
         1,
         1,
-        1,
-        1,
-        1,
+        null,
         1,
         null,
-        null,
-        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -37,7 +32,7 @@
         1,
         1,
         1,
-        1,
+        null,
         1,
         1,
         1,
@@ -49,19 +44,18 @@
         null,
         null
       ],
-      "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/rails_helper.rb": [
+      "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/rails_helper.rb": [
         1
       ],
-      "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/database_helpers.rb": [
+      "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/database_helpers.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
+        1,
+        1,
         null
       ],
-      "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/features/add_bookmark_spec.rb": [
+      "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/features/add_bookmark_spec.rb": [
         1,
         null,
         null,
@@ -82,7 +76,7 @@
         null,
         null
       ],
-      "/Users/student/Documents/Week4_270219_Bookmark_Manager/bookmark_manager_v2/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -98,24 +92,16 @@
         1,
         1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         null,
         1,
         1,
         1,
-        null,
-        null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1551358304
+    "timestamp": 1551370970
   }
 }
