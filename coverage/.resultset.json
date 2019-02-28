@@ -76,6 +76,19 @@
         null,
         null
       ],
+      "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/features/deleting_bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/student/Documents/bookmarks_redo/bookmark_new/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
@@ -102,6 +115,6 @@
         null
       ]
     },
-    "timestamp": 1551370970
+    "timestamp": 1551383662
   }
 }

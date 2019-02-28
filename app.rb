@@ -2,6 +2,8 @@ require 'sinatra/base'
 require_relative './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base
+  enable :sessions, :method_override
+  #enable method override so that  post request is overidden by value in method parameter (DELETE)
   get '/' do
     "Bookmark Manager!"
   end
