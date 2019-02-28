@@ -8,9 +8,9 @@ class Bookmark
     bookmarks.map { |bookmark| bookmark['url'] }
   end
 
-  def self.add(url)
+  def self.create(url:, title:)
     self.choose_env
-    @connection.exec("INSERT INTO bookmarks (url) VALUES('#{url}')")
+    @connection.exec("INSERT INTO bookmarks (title, url) VALUES('#{title}','#{url}') RETURNING id, url, title")
   end
 
   def self.choose_env

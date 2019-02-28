@@ -1,7 +1,8 @@
 require 'bookmark'
-
+require 'rails_helper'
 
 describe Bookmark do
+
   describe '.all' do
     it 'returns all bookmarks' do
       connection = PG.connect(dbname: 'bookmark_manager_test')
@@ -17,4 +18,15 @@ describe Bookmark do
       expect(bookmarks).to include("http://www.google.com")
       end
   end
+
+  describe '.create' do
+    it 'creates a new bookmark' do
+      bookmark = Bookmark.create(url: 'http://www.testbookmark.com', title: 'Test Bookmark').first
+      expect(bookmark['url']).to eq 'http://www.testbookmark.com'
+      expect(bookmark['title']).to eq 'Test Bookmark' 
+    end
+  end
+
+
+
 end

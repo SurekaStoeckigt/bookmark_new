@@ -16,11 +16,15 @@ class Bookmarks < Sinatra::Base
     erb :'bookmarks/new'
   end
 
-  post '/bookmarks' do
-    Bookmark.add(params[:add_bookmark])
-    @bookmarks = Bookmark.all
-    p "New bookmark added!"
-    erb :'bookmarks/index'
+  post '/bookmarks/new' do
+    Bookmark.create(url: params[:url], title: params[:title])
+    # connection = PG.connect(dbname: 'bookmark_manager_test')
+    # connection.exec("INSERT INTO bookmarks (url) VALUES('#{url}')")
+    redirect '/bookmarks'
+
+    # @bookmarks = Bookmark.all
+    # p "New bookmark added!"
+    # erb :'bookmarks/index'
   end
 
   # post '/add_bookmark' do
